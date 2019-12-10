@@ -323,6 +323,7 @@ ul li {
         width:20px;
         height:auto;
     }
+    
     header .container .navimg{
         display:flex;
         order:-1;
@@ -333,6 +334,9 @@ ul li {
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
+    text-align: center;
+    margin-top:0;
+    border-top:1px solid grey;
     }
     nav a{
         font-size:10px;
@@ -354,6 +358,7 @@ ul li {
         display:flex;
         justify-content: center;
         align-items: center;
+        padding-bottom:7%;
     }
     .topcontainer h1{
         font-size:35px;
@@ -395,6 +400,12 @@ ul li {
     .bottomcontainer p{
         font-size:9px;
     }
-    footer {
+    .contactsection h3 {
+        font-size:10px;
+    }
+    .contactsection p {
         font-size:9px;
+    }
+    footer {
+        font-size:8px;
     }
